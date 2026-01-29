@@ -16,21 +16,21 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-light-100">
+    <header className="sticky top-0 z-50 bg-linear-to-r from-emerald-900 to-black ">
       <nav
         className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
         aria-label="Primary"
       >
         <Link href="/" aria-label="Home" className="flex items-center">
-          <Image src="/transFlashLogo.gif" alt="Soul Woven Rising Xpressions Logo" width={28} height={28} priority className="invert" />
+          <Image src="/transFlashLogo.gif" alt="Soul Woven Rising Xpressions Logo" width={68} height={68} priority className="invert" />
         </Link>
 
-        <ul className="hidden items-center gap-8 md:flex">
+        <ul className="hidden items-center gap-8 md:flex text-white shadow-md">
           {NAV_LINKS.map((l) => (
             <li key={l.href}>
               <Link
                 href={l.href}
-                className="text-body text-dark-900 transition-colors hover:text-dark-700"
+                className="text-body text-white transition-colors hover:text-emerald-300"
               >
                 {l.label}
               </Link>
@@ -38,11 +38,11 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <div className="hidden items-center gap-6 md:flex">
-          <button className="text-body text-dark-900 transition-colors hover:text-dark-700">
+        <div className="hidden items-center gap-6 md:flex text-white shadow-md">
+          <button className="text-body text-white transition-colors hover:text-emerald-300">
             Search
           </button>
-          <button className="text-body text-dark-900 transition-colors hover:text-dark-700">
+          <button className="text-body text-white transition-colors hover:text-emerald-300">
             My Cart (2)
           </button>
         </div>

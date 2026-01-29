@@ -4,7 +4,7 @@ import Link from "next/link";
 const columns = [
   {
     title: "Featured",
-    links: ["", "", "", ""],
+    links: ["Sweaters", "Beanies"],
   },
   {
     title: "Clothing",
@@ -22,7 +22,7 @@ const columns = [
 
 export default function Footer() {
   return (
-    <footer className="bg-dark-900 text-light-100">
+    <footer className="bg-linear-to-r from-emerald-900 to-black text-light-100">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 items-start gap-8 md:grid-cols-12">
           <div className="flex items-start md:col-span-3">
