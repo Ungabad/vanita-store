@@ -8,8 +8,8 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "Nike",
-  description: "An e-commerce platform for Nike shoes",
+  title: "Soul Woven Rising Xpressions",
+  description: "An inclusive e-commerce platform offering stylish and affirming apparel for a healing and inclusive community.",
 };
 
 export default function RootShell({
