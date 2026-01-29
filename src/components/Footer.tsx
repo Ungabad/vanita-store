@@ -4,7 +4,7 @@ import Link from "next/link";
 const columns = [
   {
     title: "Featured",
-    links: ["Sweaters", "Beanies"],
+    links: ["Sweaters", "Beanies", "Earings", "Bags"],
   },
   {
     title: "Clothing",
