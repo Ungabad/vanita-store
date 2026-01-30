@@ -13,7 +13,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
         <div className="space-y-4">
           <h2 className="text-heading-2">Adorn Your Soul, Wear the Story.</h2>
           <p className="max-w-md text-lead text-light-300">
-            Join the healing movement with Soul Woven Rising Xpressions. Our apparel is more than just clothing; it's a
+            Join the healing movement with Soul Woven Rising Xpressions. Our apparel is more than just clothing; it&apos;s a
             canvas for your journey towards self-discovery and empowerment. Each piece is thoughtfully designed to
             inspire and uplift, helping you express your unique story while embracing comfort and style.
           </p>

@@ -32,7 +32,7 @@ export default function AuthForm({ mode, onSubmit }: Props) {
     <div className="space-y-6">
       <div className="text-center">
         <p className="text-caption text-dark-700">
-          {mode === "sign-in" ? "Don’t have an account? " : "Already have an account? "}
+          {mode === "sign-in" ? "Don&apos;t have an account? " : "Already have an account? "}
           <Link href={mode === "sign-in" ? "/sign-up" : "/sign-in"} className="underline">
             {mode === "sign-in" ? "Sign Up" : "Sign In"}
           </Link>

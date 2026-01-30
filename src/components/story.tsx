@@ -45,7 +45,7 @@ const Story = () => {
 
           <div className="p-8 sm:p-12 rounded-lg shadow-lg">
             <p className="text-white text-xl sm:text-2xl italic leading-relaxed">
-              "Soul Woven Rising Xpressions is more than adornment. Each piece is a thread of memory, resilience, and becoming—handcrafted with intention for those who wear their story on the outside. Through making and wearing, we honor heritage, claim healing, and express the fullness of who we are."
+              &quot;Soul Woven Rising Xpressions is more than adornment. Each piece is a thread of memory, resilience, and becoming&mdash;handcrafted with intention for those who wear their story on the outside. Through making and wearing, we honor heritage, claim healing, and express the fullness of who we are.&quot;
             </p>
           </div>
         </div>

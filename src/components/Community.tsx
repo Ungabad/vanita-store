@@ -11,7 +11,7 @@ const Community = () => {
           </h2>
 
           <p className="text-lg text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Crafting is more than a skill—it's a ritual. It's meditation. It's medicine. Join our community workshops and healing circles where we gather to create, connect, and care for ourselves and each other.
+            Crafting is more than a skill&mdash;it&apos;s a ritual. It&apos;s meditation. It&apos;s medicine. Join our community workshops and healing circles where we gather to create, connect, and care for ourselves and each other.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
